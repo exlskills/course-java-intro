@@ -1,7 +1,7 @@
-url_name: basics_java
+url_name: intro_to_java
 display_name: AP® Computer Science A (Java)
 org: EXLskills
-course: basics_java
+course: intro_to_java
 course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/ap-java-course.jpg
 language: en
 est_minutes: 3600
