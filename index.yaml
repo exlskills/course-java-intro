@@ -1,5 +1,5 @@
 url_name: intro_to_java
-display_name: AP® Computer Science A (Java)
+display_name: Introduction To Java
 org: EXLskills
 course: intro_to_java
 course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/ap-java-course.jpg
@@ -9,17 +9,14 @@ primary_topic: Java
 repo_url: https://github.com/exlskills/course-java-intro
 topics:
   - Java
-  - AP
   - Computer Science
   - CompSci
-headline: Ace the AP® Computer Science A Exam with EXLskills!
-description: This is the EXLskills free and open-source AP® (Advanced Placement®) Java Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of Java, to a moderate level of essential coding proficiency. It is a substantial amount of coursework that represents a typical year of high school-level study or a semester of a University computer science course. This course may also be used to prepare for the AP® Computer Science A exam.
+headline: Receive a basic introduction to Java with EXLskills!
+description: This is the EXLskills free and open-source Introduction To Java Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of Java, to a moderate level of essential coding proficiency.
 info_md: |2
-  # EXLskills AP® Computer Science A (Java) Course
+  # EXLskills Introduction To Java
 
-  This is the EXLskills free and open-source AP® (Advanced Placement®) Java Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of Java, to a moderate level of essential coding proficiency. It is a substantial amount of coursework that represents a typical year of high school-level study or a semester of a University computer science course.
-
-  This course may also be used to prepare for the AP® Computer Science A exam.
+  This is the EXLskills free and open-source Introduction To Java Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of Java, to a moderate level of essential coding proficiency.
 
   ## About EXLskills
 
