@@ -16,7 +16,7 @@ This course is designed, maintained, and accessed through the EOCS (EXL Open Cou
 
 ## Contributing
 
-All contributions in the form of pull-requests and issues are welcome and greatly appreciated :)
+This repository points to an upstream repository [EXLskills Java Basics Course](https://github.com/exlskills/course-java-basics). All contributions in the form of pull-requests and issues on the [EXLskills Java Basics Course](https://github.com/exlskills/course-java-basics) are welcome and greatly appreciated :) Please do not post issues in this repository.
 
 ## Translations
 
