@@ -1,9 +1,28 @@
->>Which of the following statements is an example of short circuit? <<
+>>Consider the following code segment:
+<pre><code>char varOne = 'a';
+switch (varOne){
+  case 'a':
+  case 'A':
+    System.out.print(varOne);
+    break;
+  case 'b':
+  case 'B':
+    System.out.println(varOne);
+    break.;
+  case 'c':
+  case 'C':
+    System.out.print(varOne);
+    break;
+  case 'd';
+  case 'D':
+    System.out.print(varOne);
+</code></pre>
+<p>What is printed as a result of executing this code segment?</p> <<
 
-(x) <pre><code>13 &lt; 5 &amp;&amp; 19 / 0 == 0</code></pre> {{Correct because the first boolean expression <code>13 &lt; 5</code> is false, meaning that the second boolean expression does not have to be evaluated. Therefore, even though <code>19 / 0 == 0</code> should cause an error, the expression is never evaluated, meaning the error is never caught.}}
-( ) <pre><code>5 &lt; 13 &amp;&amp; 19 &gt; 1</code></pre> {{Incorrect because the first boolean expression <code>5 &lt; 13</code> is true, meaning that the second boolean expression also has to be evaluated.}}
-( ) <pre><code>3 &lt; 8 &amp;&amp; -4 &lt; -4</code></pre> {{Incorrect because the first boolean expression <code>3 &lt; 8</code> is true, meaning that the second boolean expression also has to be evaluated.}}
-( ) <pre><code>7 == 12 || 10 &lt; 16</code></pre> {{Incorrect because the "OR" statement requires both boolean expressions to be evaluated if and only if the first boolean expression is false.}}
-( ) All of the above {{Incorrect because only the first answer choice shows an example of short circuit.}}
+(x) a {{Correct because <code>case 'a'</code> does not have a <code>break;</code> statement, so the statements under <code>case 'A'</code> will be executed.}}
+( ) aa {{Incorrect because the <code>break;</code> statement under <code>case 'A'</code> will cause the program to exit the switch statement.}}
+( ) ab {{Incorrect because the value of <code>varOne</code> is always 'a' and will not change to 'b'}}
+( ) abc {{Incorrect because the value of <code>varOne</code> is always 'a' and will not change to 'b' or 'c'}}
+( ) abcd {{Incorrect because the value of <code>varOne</code> is always 'a' and will not change to 'b', 'c' or 'd'.}}
 
-||Note that "False &amp;&amp; True/False" is always false and "True || True/False" is always true. ||
+||Where is the first <code>break;</code> statement in the switch statement located? ||

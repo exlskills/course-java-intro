@@ -1,15 +1,14 @@
->>Complete the method <code>luckyNumbers</code> so that it satisfies the following conditions:
+>>Complete the method <code>totalSum</code> so that it satisfies the following conditions:
 <ol>
-<li>If all three parameters have the same value, return 20.</li>
-<li>If all three parameters have different values, return 0.</li>
-<li>If two parameters have the same value, return 10.</li>
+<li>Returns the sum of three integers</li>
+<li>If one of the values are 13, it does not count towards the sum and values to its right do not count either.
+Use the <code>else if</code> statements when writing your response.</li>
 </ol>
-<p>Use the "OR" operator when writing your response.<br/>
-For example:<br/>
-<code>luckyNumbers(1, 2, 3)</code> should return 0<br/>
-<code>luckyNumbers(2, 2, 2)</code> should return 20<br/>
-<code>luckyNumbers(1, 1, 2)</code> should return 10 </p><<
+<p>For example:<br/>
+<code>totalSum(1, 2, 3)</code> should return 6<br/>
+<code>totalSum(3, 2, 13)</code> should return 5<br/>
+<code>totalSum(3, 13, 3)</code> should return 3 </p><<
 
 = #!exl::repl('index.prob.repl.yaml')
 
-||The condition "OR" statement can be used to check if multiple conditions are true or not. ||
+||You can stack <code>else if</code> statements and a final <code>else</code> statement to complete this question. ||
