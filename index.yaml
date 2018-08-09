@@ -4,7 +4,7 @@ org: EXLskills
 course: intro_to_java
 course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/course-java-intro.jpg
 language: en
-est_minutes: 3600
+est_minutes: 1500
 primary_topic: Java
 repo_url: https://github.com/exlskills/course-java-intro
 topics:
@@ -32,7 +32,7 @@ info_md: |2
 
   ## Contributing
 
-  This repository points to an upstream repository [EXLskills Java Basics Course](https://github.com/exlskills/course-java-basics). All contributions in the form of pull-requests and issues on the [EXLskills Java Basics Course](https://github.com/exlskills/course-java-basics) are welcome and greatly appreciated :) Please do not post issues in this repository.
+  This repository was created from an upstream repository [EXLskills Java Basics Course](https://github.com/exlskills/course-java-basics). All contributions in the form of pull-requests and issues on the [EXLskills Java Basics Course](https://github.com/exlskills/course-java-basics) are welcome and greatly appreciated :) Please do not post issues in this repository.
 
   ## Translations
 
